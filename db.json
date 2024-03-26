@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kiko Linen Slip Dress, Brown",
+      "category": "Clothing",
+      "price": 69.00,
+      "image": "https://preview.colorlib.com/theme/product/images/cloth_1.jpg",
+      "badge": "New"
+    },
+    {
+      "id": 2,
+      "name": "Sleeve Dress, White",
+      "category": "Clothing",
+      "price": 69.00,
+      "originalPrice": 99.00,
+      "image": "https://preview.colorlib.com/theme/product/images/cloth_2.jpg",
+      "badge": "Sale"
+    },
+    {
+      "id": 3,
+      "name": "Hodina Watch",
+      "category": "Accessories",
+      "price": 29.00,
+      "image": "https://preview.colorlib.com/theme/product/images/watch_1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Triangle Low White-Black",
+      "category": "Shoes",
+      "price": 29.00,
+      "image": "https://preview.colorlib.com/theme/product/images/shoe_2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dress, White",
+      "category": "Clothing",
+      "price": 69.00,
+      "originalPrice": 99.00,
+      "image": "https://preview.colorlib.com/theme/product/images/cloth_3.jpg",
+      "badge": "Sale"
+    },
+    {
+      "id": 6,
+      "name": "Lady Shoes, Brown",
+      "category": "Shoes",
+      "price": 69.00,
+      "originalPrice": 99.00,
+      "image": "https://preview.colorlib.com/theme/product/images/shoe_1.jpg",
+      "badge": "Sale"
+    }
+  ]
+}
