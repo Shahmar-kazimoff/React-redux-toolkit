@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "../../components/Header/Navbar/Navbar"
+import { useDispatch, useSelector } from 'react-redux';
+import { addBasket } from "../../Slice/BasketSlice";
 
 const HomePage = () => {
     const [index, setIndex] = useState(0);
@@ -31,14 +32,14 @@ const HomePage = () => {
         return () => clearInterval(interval);
     }, []);
 
-    const addToCart = (productId) => {
-        console.log('Product added to cart:', productId);
-        // Burada ürünü sepete eklemek için gerekli işlemleri yapabilirsiniz
-    };
 
+    const dispatch = useDispatch()
+
+    const addToCart = (product) => {
+        dispatch(addBasket(product))
+    };
     return (
         <div>
-            <Navbar addToCart={addToCart} products={products} setProducts={setProducts}/>
             <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
                 <Carousel.Item>
                     <div className="relative w-full">
@@ -81,7 +82,7 @@ const HomePage = () => {
                                     <p className="text-gray-700">£{product.price}</p>
                                     {product.originalPrice && <p className="text-gray-500 ">➖<span className='line-through'>£{product.originalPrice}</span></p>}
                                 </div>
-                                <button onClick={() => addToCart(product.id)} className="bg-blue-500 text-white px-3 py-1 mt-2 rounded hover:bg-blue-600 focus:outline-none">Add to Cart</button>
+                                <button onClick={() => addToCart(product)} className="bg-blue-500 text-white px-3 py-1 mt-2 rounded hover:bg-blue-600 focus:outline-none">Add to Cart</button>
                             </div>
                         </div>
                     ))}

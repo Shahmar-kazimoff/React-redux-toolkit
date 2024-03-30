@@ -6,7 +6,8 @@
       "category": "Clothing",
       "price": 69.00,
       "image": "https://preview.colorlib.com/theme/product/images/cloth_1.jpg",
-      "badge": "New"
+      "badge": "New",
+      "count": 1
     },
     {
       "id": 2,
@@ -15,21 +16,24 @@
       "price": 69.00,
       "originalPrice": 99.00,
       "image": "https://preview.colorlib.com/theme/product/images/cloth_2.jpg",
-      "badge": "Sale"
+      "badge": "Sale",
+      "count": 1
     },
     {
       "id": 3,
       "name": "Hodina Watch",
       "category": "Accessories",
       "price": 29.00,
-      "image": "https://preview.colorlib.com/theme/product/images/watch_1.jpg"
+      "image": "https://preview.colorlib.com/theme/product/images/watch_1.jpg",
+      "count": 1
     },
     {
       "id": 4,
       "name": "Triangle Low White-Black",
       "category": "Shoes",
       "price": 29.00,
-      "image": "https://preview.colorlib.com/theme/product/images/shoe_2.jpg"
+      "image": "https://preview.colorlib.com/theme/product/images/shoe_2.jpg",
+      "count": 1
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "price": 69.00,
       "originalPrice": 99.00,
       "image": "https://preview.colorlib.com/theme/product/images/cloth_3.jpg",
-      "badge": "Sale"
+      "badge": "Sale",
+      "count": 1
     },
     {
       "id": 6,
@@ -47,7 +52,8 @@
       "price": 69.00,
       "originalPrice": 99.00,
       "image": "https://preview.colorlib.com/theme/product/images/shoe_1.jpg",
-      "badge": "Sale"
+      "badge": "Sale",
+      "count": 1
     }
   ]
 }
